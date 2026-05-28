@@ -5,8 +5,9 @@ const PORT = process.env.PORT || 3000;
 app.get('/', (req, res) => {
   res.json({
     message: 'Hello from CI/CD Pipeline!',
-    version: '1.0.0',
-    author: 'jiteshwar0124'
+    version: '2.0.0',
+    author: 'jiteshwar0124',
+    updated: 'Pipeline working perfectly!'
   });
 });
 
